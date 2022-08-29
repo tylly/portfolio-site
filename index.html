@@ -8,46 +8,175 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
   </head>
   <body>
     <div id="cover">
-      <!-- <iframe
-        pointer-events="none"
-        width="100vw"
-        height="480"
-        src="https://www.youtube.com/embed/wmduI3bjBtc?autoplay=1&mute=1"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        id="loginVideo"
-      ></iframe> -->
       <div id="filter">
         <div id="card">
-          <div class="photo">
-            <img id="headshot" src="https://i.ibb.co/Hpwwc5j/Full-Size-Render.jpg" alt="Full-Size-Render">
+          <div id="contCont">
+            <button id="home" class="infoButtons">Home</button>
+            <button id="aboutMe" class="infoButtons">About me</button>
+            <button id="projects" class="infoButtons">Dev Projects</button>
+            <button id="education" class="infoButtons">Education</button>
+            <button id="resume" class="infoButtons">Resume</button>
           </div>
+          <div class="photo">
+            <img
+              id="headshot"
+              src="https://i.ibb.co/Hpwwc5j/Full-Size-Render.jpg"
+              alt="Full-Size-Render"
+            />
+          </div>
+          <div id="bioBlock">
+            <div id="aboutMeText">
+              <p id="bio">
+                A map of my biography would illustrate better than anything the
+                desire for learning and understanding that characterize my work.
+                My starting point was a small town in northern Michigan. From
+                there I achieved a BA in Comparative Cultures and Politics and
+                German at Michigan State University; studied abroad in Cuba,
+                Italy, and Germany; and then moved to Winter Park, CO to further
+                pursue my passion for snowboarding. Coaching the WP Snowboard
+                Team ended up being a perfect fit; I was afforded the unique
+                opportunity to pursue a higher understanding of my passion
+                professionally, and I fell in love with engaging this pursuit
+                with a community.
+                <br /><br />
+                Learning full stack development with General Assembly has been
+                reminiscent of many of these experiences. The pace and intensity
+                driven by a desire for understanding reminds me of reaching a C1
+                German proficiency level in one year at MSU. The collaborative
+                learning and uplifting between instructors, classmates and
+                myself makes me reflect on my role on both the Winter Park
+                Snowboard Team and the Park City Snowboard Team. I now want to
+                work professionally with a team that operates with these values
+                in mind; goals for efficient solutions to complex problems,
+                attained through teamwork and driven by curiosity and passion.
+              </p>
+            </div>
+          </div>
+          <div id="projectsPage">
+            <div id="globeTrotters">
+              <a href="https://ibb.co/BN5x8mL"
+                ><img
+                  id="globeTrottersImg"
+                  src="https://i.ibb.co/FVLMG96/Screen-Shot-2022-08-14-at-11-14-59-AM.png"
+                  alt="Screen-Shot-2022-08-14-at-11-14-59-AM"
+              /></a>
+
+              <div class="confuse">
+                <ul class="projectDesc">
+                  <li class="title">Globe Trotters</li>
+                  <li>
+                    Travel planning app built with React, MongoDB and
+                    Mongoose/Express.
+                  </li>
+                  <li>
+                    Managed collaborative Git workflow as Team Mananger with a
+                    three person team.
+                  </li>
+                  <li>Built API with full CRUD actions on multiple models.</li>
+                  <li>
+                    Utilized Axios to send requests to TomTom API, OpenTrip API,
+                    and Unsplash API.
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/tylly/project-3-react"
+                      target="_blank"
+                      >Front end</a
+                    >
+                    |
+                    <a
+                      href="https://github.com/tylly/project-3-mongoose-express"
+                      target="_blank"
+                      >API</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="skiResort">
+              <a href="https://ibb.co/GPJnrCX"
+                ><img
+                  id="skiResortImg"
+                  src="https://i.ibb.co/6sZrqD2/Screen-Shot-2022-08-14-at-5-01-35-PM.png"
+                  alt="Screen-Shot-2022-08-14-at-5-01-35-PM"
+                />
+              </a>
+              <div class="confuse">
+                <ul class="projectDesc">
+                  <li class="title">My Ski Resorts</li>
+                  <li>
+                    Travel planning app built with React, MongoDB and
+                    Mongoose/Express.
+                  </li>
+                  <li>
+                    Managed collaborative Git workflow as Team Mananger with a
+                    three person team.
+                  </li>
+                  <li>Built API with full CRUD actions on multiple models.</li>
+                  <li>
+                    Utilized Axios to send requests to TomTom API, OpenTrip API,
+                    and Unsplash API.
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/tylly/project-3-react"
+                      target="_blank"
+                      >Front end</a
+                    >
+                    |
+                    <a
+                      href="https://github.com/tylly/project-3-mongoose-express"
+                      target="_blank"
+                      >API</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
           <div class="nameCont">
             <h1 id="name">James Adams</h1>
           </div>
           <div class="nameCont">
-            <p>_______________________</p>
+            <a
+              href="https://www.linkedin.com/in/jamestylladams/"
+              target="_blank"
+              ><img
+                id="linkedIn"
+                src="https://i.ibb.co/GHcGjVg/Screen-Shot-2022-08-13-at-6-31-21-PM.png"
+                alt="Screen-Shot-2022-08-13-at-6-31-21-PM"
+            /></a>
+            <p>|</p>
+            <a href="https://github.com/tylly" target="_blank"
+              ><img
+                id="gitHub"
+                src="https://i.ibb.co/Pc7NBr1/Git-Hub-Logo.png"
+                alt="Git-Hub-Logo"
+            /></a>
+            <p>|</p>
+            <a href="mailto: jamestylladams@gmail.com"
+              ><img
+                id="gmail"
+                src="https://i.ibb.co/89C6Wrq/gmail-icon-icons-com-59877.png"
+                alt="gmail-icon-icons-com-59877"
+            /></a>
           </div>
           <div class="nameCont">
             <ul>
               <li id="bStatement">
-                Full stack developer with background in coaching and
-                collaboration.
+                Full stack developer with background in coaching snowboarding.
+              </li>
+              <li id="bStatement">
+                Driven by curiosity and efficient solutions to complex problems.
               </li>
             </ul>
           </div>
         </div>
+        <div id="bottomCard"></div>
       </div>
     </div>
 
