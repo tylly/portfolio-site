@@ -33,6 +33,7 @@ aboutMe.onclick = () => {
     globeTrotters.style.display = "none"
     skiResort.style.display = "none"
     resumePdf.style.display = "none"
+    headShot.style.display = "flex"
 }
 projects.onclick = () => {
     cardCont.forEach((i) => {
