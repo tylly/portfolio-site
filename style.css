@@ -216,3 +216,11 @@ ul {
     list-style: circle;
     margin-right: 15px;
 }
+
+#resumePdf {
+  display: none;
+  margin-top: 100px;
+  position: absolute;
+  width: 800px;
+  height: 1000px;
+}
