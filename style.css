@@ -217,6 +217,11 @@ ul {
     margin-right: 15px;
 }
 
+#resCont {
+  display: flex;
+  justify-content: center;
+}
+
 #resumePdf {
   display: none;
   margin-top: 100px;

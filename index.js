@@ -21,7 +21,6 @@ home.onclick = () => {
     aboutMeText.style.display = "none"
     globeTrotters.style.display = "none"
     skiResort.style.display = "none"
-    pokeDex.style.display = "none"
     resumePdf.style.display = "none"
 }
 
@@ -33,7 +32,6 @@ aboutMe.onclick = () => {
     aboutMeText.style.display = "flex"
     globeTrotters.style.display = "none"
     skiResort.style.display = "none"
-    pokeDex.style.display = "none"
     resumePdf.style.display = "none"
 }
 projects.onclick = () => {
@@ -55,6 +53,9 @@ resume.onclick = () => {
     cardCont.forEach((i) => {
         i.style.display = "none"
     })
+    aboutMeText.style.display = "none"
     resumePdf.style.display = "flex"
     headShot.style.display = "none"
+    globeTrotters.style.display = "none"
+    skiResort.style.display = "none"
 }
