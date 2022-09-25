@@ -1,12 +1,10 @@
 const home = document.getElementById('home')
 const aboutMe = document.getElementById('aboutMe')
 const aboutMeText = document.getElementById('aboutMeText')
-
 const projects = document.getElementById('projects')
 const globeTrotters = document.getElementById('globeTrotters')
 const skiResort = document.getElementById('skiResort')
 const pokeDex = document.getElementById('pokeDex')
-
 const education = document.getElementById('education')
 const resume = document.getElementById('resume')
 const headShot = document.getElementById('headshot')
